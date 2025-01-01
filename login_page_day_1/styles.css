@@ -95,10 +95,9 @@ span:not(.line-inner):hover{
     color: white;
 }
 .line-inner{
-    max-width: 50px;
+    width: 50px;
     border: 1px solid black;
     height: 1px;
-    min-width: 10px;
 }
 .spans{
     display: flex;
@@ -135,6 +134,12 @@ button:hover{
     .line{
         flex-direction: column;
         gap: 0.6rem;
+    }
+    .line-inner{
+        max-width: 10px;
+        border: 1px solid black;
+        height: 1px;
+        min-width: 10px;
     }
 }
 @media (max-width:915px){
