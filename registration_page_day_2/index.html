@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE REGISTRAION PAGE</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NTD SUMMER CODING CLASS</h1>
+        <p class="description">Fill in your details correctly ( <span class="required">*</span> means must be answered )</p>
+
+        <div class="form">
+                <div class="basic-info class">
+                    <h3>PERSONAL INFORMATION</h3>
+                    <form >
+                        <label>Full Name <span class="required">*</span>
+                            <input type="text" required placeholder="eg : Firstname Lastname">
+                        </label>
+                        <label>Date of Birth <span class="required">*</span>
+                            <input type="date" name="age" required>
+                        </label>
+                        <div class="radio-div">
+                            <p class="question">Gender <small>(Pick one)</small></p>
+                        <label class="radio">
+                            <input type="radio" name="gender" required>Male
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="gender" required>Female
+                        </label>
+                        </div>
+                        <label>Phone Number <span class="required">*</span>
+                            <input type="tel" name="" required>
+                        </label>
+                        <label>Parent or Guardian Name <span>(if below 18)</span>
+                            <input type="text">
+                        </label>
+                        <label>Parent or Guardian Contact Information
+                            <input type="tel" name="">
+                        </label>
+                        <label>Residential Address <span>(be specific)</span> <span class="required">*</span>
+                            <textarea name="" cols="50" rows="3"></textarea>
+                        </label>
+                    </form>
+                </div>
+                <div class="educational-bg class">
+                    <h3>Educational Background</h3>
+                    <form >
+                        <div class="grade">
+                            <p>Grade or level <small>(if still in school)</small></p>
+                            <select name="" id="">
+                            <option value="">None</option>
+                            <option value="">Grade1</option>
+                            <option value="">Grade2</option>
+                            <option value="">Grade3</option>
+                            <option value="">Grade4</option>
+                            <option value="">Grade5</option>
+                            <option value="">Grade6</option>
+                            <option value="">Grade7</option>
+                            <option value="">Grade8</option>
+                            <option value="">Grade9</option>
+                            <option value="">Grade10</option>
+                            <option value="">Grade11</option>
+                            <option value="">Grade12</option>
+                            <option value="">100 Level</option>
+                            <option value="">200 Level</option>
+                            <option value="">300 Level</option>
+                            <option value="">400 Level</option>
+                            <option value="">500 Level</option>
+                        </select>
+                        </div>
+                        <label>School name or instituition
+                            <input type="text">
+                        </label>
+                        <div class="radio-div">
+                            <p>Programming Experience Level <span class="required">*</span></p>
+                            <label class="radio">
+                                <input type="radio" name="coding" required>Beginner (No prior experience)
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="coding" required>Intermediate (Some experience)
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="coding"required> Advanced (Comfortable Coding)
+                            </label>
+                        </div>
+                        <div class="radio-div">
+                            <p>Have you attended a tech/coding program before? <span class="required">*</span></p>
+                            <label class="radio">
+                                <input type="radio" name="classes"required>Yes
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="classes"required>No 
+                            </label>
+                            <label>If yes,specify which one and your experience
+                                <textarea name="" rows="5"></textarea>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="course class">
+                    <h3>Course Interest</h3>
+                    <form>
+                       <div class="radio-div">
+                        <p>Which programming languages or skills are you interested in learning? <span>(Check all that apply)</span></p>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">Python
+                        </label>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">Web Development
+                        </label>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">Mobile App Development
+                        </label>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">Game Development
+                        </label>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">JavaScript
+                        </label>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">Data Science / AI
+                        </label>
+                        <label for="" class="checkbox">
+                            <input type="checkbox" name="" id="">Robotics
+                        </label>
+                       </div>
+                    <label>Do you have a project or goal you would like to achieve during the program 
+                        <textarea name="" rows="5" placeholder="I would like to..."></textarea>
+                    </label>
+                    <label>What are your long term career goals related to tech
+                        <textarea name="" rows="5" placeholder="I see myself in 10 years..."></textarea>
+                    </label>
+                    </form>
+                </div>
+                <div class="requirements class">
+                    <h3>Technical Requirements</h3>
+                    <form >  
+                    <div class="radio-div">
+                        <p>Do you have access to a laptop/computer <span class="required">*</span></p>
+                        <label class="radio">
+                            <input type="radio" name="laptop" required>yes
+                       </label>
+                        <label class="radio">
+                            <input type="radio" name="laptop" required>no
+                       </label>
+                    </div>
+                    <div class="radio-div">
+                        <p>Do you have a stable internet connection <span class="required">*</span></p>
+                        <label class="radio">
+                            <input type="radio" name="laptop" required>yes
+                       </label>
+                        <label class="radio">
+                            <input type="radio" name="laptop" required>no
+                       </label>
+                    </div>
+                    </form>
+                </div>
+                <div class="schedule class">
+                    <h3>Schedule and Availability</h3>
+                   <form>
+                    <div class="radio-div">
+                        <p>Which schedule do you prefer <span class="required">*</span></p>
+                        <label class="radio">
+                            <input type="radio" name="availability" required>Morning
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="availability" required>Afternoon
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="availability" required>Evening
+                        </label>
+                    </div>
+                    <label>Are there any specific dates you won't be available during the program
+                        <textarea name="" rows="2"></textarea>
+                    </label>
+                   </form>
+                </div>
+                <div class="consent class">
+                    <form>
+                        <h3>Consent and Agreement</h3>
+                    <label>How did you hear about this program
+                        <textarea name="" rows="3"></textarea>
+                    </label>
+                    <div class="radio-div">
+                        <p>Do you consent to your photo or project being shared for promotional purposes <span class="required">*</span></p>
+                        <label class="radio">
+                            <input type="radio" name="photo" required>Yes
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="photo" required>No
+                        </label>
+                    </div>
+                    <div class="radio-div">
+                        <p>Do you agree to follow the rules and the code of conduct of the program <span class="required">*</span></p>
+                        <label class="radio">
+                            <input type="radio" name="rules" required>Yes
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="rules" required>No
+                        </label>
+                    </div>
+                    </form>
+                </div>
+
+                <label>Is there anything you would like us to know?
+                    <textarea name="" rows="10" placeholder="be specific(personal,health,mental)..."></textarea>
+                </label>
+
+                <input type="button" value="Submit">
+        </div>
+    </div>
+</body>
+</html>
